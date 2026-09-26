@@ -13,3 +13,5 @@
 建议先根据任务选一本，而不必按顺序读完全部。新书为完整首轮草稿，尚需作者审阅、真实任务与读者反馈。技术书包含当前官方参考来源，代码验证范围写在示例说明中。
 
 [原有《把 AI 用起来》](../README.md) · [网站书架](https://pzhyh.com/books)
+
+原创书稿采用 [CC BY 4.0](../LICENSE)，允许署名分享、改编和商业使用；示例代码采用 MIT，具体范围见 [LICENSES.md](../LICENSES.md)。机器可读目录见 [data/books.json](../data/books.json)。

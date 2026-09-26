@@ -1,0 +1,208 @@
+{
+  "schemaVersion": "1.0",
+  "updated": "2026-09-26",
+  "creator": "陈一豪 / Ethan",
+  "license": "CC-BY-4.0",
+  "status": "AI 辅助撰写的公开初稿；教学示例不代表真实项目成果",
+  "scope": "4 个基础自学单元和8个长期进阶起始主题；不是已开课或认证的记录",
+  "tracks": [
+    {
+      "id": "basics",
+      "label": "基础课",
+      "title": "从零开始，把 AI 用起来",
+      "description": "零基础也可以开始。四个自学单元串起一次完整实践；线下基础科普将围绕这些方法反复展开，每一场都能独立听懂。",
+      "rows": [
+        {
+          "lessonAnchor": "first-lesson",
+          "handout": "lessons/first-ai-task.md",
+          "title": "理解任务，检查一份通知",
+          "detail": "先把 AI 当作需要背景、会出错的协作者。选一件容易核对、近期确实需要完成的小事。",
+          "task": "用一句话写清这次要得到什么，并列出暂时不做的内容。",
+          "check": "别人能看懂你要交付的成果；范围足够小，能开始尝试。",
+          "chapters": [
+            "start"
+          ],
+          "chapterFiles": [
+            "chapters/01-start.md"
+          ]
+        },
+        {
+          "lessonAnchor": "next-lessons",
+          "handout": "lessons/02-materials.md",
+          "title": "提供资料，分清确认与建议",
+          "detail": "比较三份资料，保留来源和确认状态，再决定哪些信息可以使用。",
+          "task": "完成第二节资料判断，整理一份带来源的信息清单。",
+          "check": "没有把建议写成决定；冲突和待确认项仍然可见。",
+          "chapters": [
+            "context",
+            "materials",
+            "collaborate"
+          ],
+          "chapterFiles": [
+            "chapters/02-context.md",
+            "chapters/03-materials.md",
+            "chapters/07-collaborate.md"
+          ]
+        },
+        {
+          "lessonAnchor": "lesson-03-revision",
+          "handout": "lessons/03-revision.md",
+          "title": "提出反馈，完成一次修改",
+          "detail": "先找会影响使用的问题，再给出具体、有限的修改要求。",
+          "task": "挑出回答中的三个关键事实，回到原资料核对，再提出一条修改。",
+          "check": "能说明依据在哪里；修改后的版本确实解决了指出的问题。",
+          "chapters": [
+            "judgment",
+            "check",
+            "revise"
+          ],
+          "chapterFiles": [
+            "chapters/04-judgment.md",
+            "chapters/05-check.md",
+            "chapters/06-revise.md"
+          ]
+        },
+        {
+          "lessonAnchor": "lesson-04-first-work",
+          "handout": "lessons/04-first-work.md",
+          "title": "完成一件自己的小作品",
+          "detail": "把成果交给一个具体的人试读或试用，从真实反馈中学习。",
+          "task": "完成一份通知、学习计划或小页面，记录一次试用和一次改进。",
+          "check": "成果可以查看；你能讲清 AI 做了什么、自己判断了什么。",
+          "chapters": [
+            "create",
+            "share"
+          ],
+          "chapterFiles": [
+            "chapters/10-create.md",
+            "chapters/12-share.md"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "advanced",
+      "label": "进阶课",
+      "title": "围绕真实任务，持续练习",
+      "description": "沿用夜校方案的前八个主题，以小成果逐步积累能力。它们是持续学习的起点，后续还会扩展知识库、工作流程、管理协作与开发专题。",
+      "rows": [
+        {
+          "title": "与 AI 有效沟通",
+          "detail": "把模糊需求改成任务单，完成一次有依据的迭代。",
+          "task": "用虚构的活动资料起草通知，保留第一版与修改版。",
+          "check": "时间、地点、对象准确；未提供的信息明确留待确认。",
+          "chapters": [
+            "context",
+            "collaborate"
+          ],
+          "chapterFiles": [
+            "chapters/02-context.md",
+            "chapters/07-collaborate.md"
+          ]
+        },
+        {
+          "title": "阅读与整理资料",
+          "detail": "从两份短资料提取要点，比较差异，保留原文定位。",
+          "task": "做一张资料对照表，核对三个关键事实，并保留一个无法确认的问题。",
+          "check": "每个关键结论能回到原文；资料之间的冲突没有被隐藏。",
+          "chapters": [
+            "materials",
+            "judgment",
+            "knowledge"
+          ],
+          "chapterFiles": [
+            "chapters/03-materials.md",
+            "chapters/04-judgment.md",
+            "chapters/08-knowledge.md"
+          ]
+        },
+        {
+          "title": "撰写方案与文案",
+          "detail": "把任务单与资料转成一页可执行的方案。",
+          "task": "写出目标、步骤、分工、时间与待定事项，再找出一处执行障碍。",
+          "check": "任务有人接手；步骤能执行；内容没有擅自补写承诺。",
+          "chapters": [
+            "context",
+            "check",
+            "team"
+          ],
+          "chapterFiles": [
+            "chapters/02-context.md",
+            "chapters/05-check.md",
+            "chapters/11-team.md"
+          ]
+        },
+        {
+          "title": "制作简洁汇报",
+          "detail": "先确定听众要理解和决定什么，再组织页面。",
+          "task": "把方案压缩成三页：要做什么、如何开展、需要协调什么。",
+          "check": "每页一个重点，数字与原方案一致，同伴能复述核心意思。",
+          "chapters": [
+            "revise",
+            "create"
+          ],
+          "chapterFiles": [
+            "chapters/06-revise.md",
+            "chapters/10-create.md"
+          ]
+        },
+        {
+          "title": "整理表格与分析数据",
+          "detail": "先看数据与统计口径，再汇总和作图。使用模拟数据练习。",
+          "task": "整理一张小型报名表，记录缺项，输出汇总表、一张图和一句结论。",
+          "check": "总数与原表对得上；缺项处理和统计范围写清楚。",
+          "chapters": [
+            "judgment",
+            "check"
+          ],
+          "chapterFiles": [
+            "chapters/04-judgment.md",
+            "chapters/05-check.md"
+          ]
+        },
+        {
+          "title": "用资料建立问答助手",
+          "detail": "让回答围绕给定资料展开，并测试边界。也可以先使用附资料的普通对话。",
+          "task": "准备三份短资料，分别测试有答案、没答案、资料冲突三类问题。",
+          "check": "答案可追溯；资料不足时能说明不知道，而不是补出答案。",
+          "chapters": [
+            "knowledge"
+          ],
+          "chapterFiles": [
+            "chapters/08-knowledge.md"
+          ]
+        },
+        {
+          "title": "制作可复用 AI 助手",
+          "detail": "将常用任务的输入、步骤、输出与检查整理下来。",
+          "task": "保存一份任务模板，用两组新资料试跑，记录一次失败和修订。",
+          "check": "换一组资料仍能使用；缺项时有明确的处理办法。",
+          "chapters": [
+            "workflows",
+            "collaborate"
+          ],
+          "chapterFiles": [
+            "chapters/09-workflows.md",
+            "chapters/07-collaborate.md"
+          ]
+        },
+        {
+          "title": "综合实践与成果交流",
+          "detail": "把前面的练习换成自己的场景，形成可展示的案例。",
+          "task": "做一张案例卡：原任务、AI 做法、人工核验、改进点和下一步。",
+          "check": "能演示成果，也能讲清关键判断；知道下一轮要验证什么。",
+          "chapters": [
+            "create",
+            "team",
+            "share"
+          ],
+          "chapterFiles": [
+            "chapters/10-create.md",
+            "chapters/11-team.md",
+            "chapters/12-share.md"
+          ]
+        }
+      ]
+    }
+  ]
+}

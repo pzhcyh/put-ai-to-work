@@ -14,6 +14,10 @@
 
 个人网站已部署到京东云；截至 2026-09-26，公网访问仍受备案审核限制。此仓库可以直接阅读书稿。
 
+**开放内容入口：** [六本书 / 52章](books/README.md) · [课程与学习数据](data/README.md) · [经典论文阅读](papers/README.md) · [参与完善](CONTRIBUTING.md)
+
+原创学习内容采用 CC BY 4.0，示例代码采用 MIT；可署名复用，完整范围见 [LICENSES.md](LICENSES.md)。
+
 ## 目录
 
 ### 开始行动
@@ -59,7 +63,7 @@
 
 欢迎通过 Issues 指出事实错误、理解困难的段落，或分享经过核实的练习反馈。请附上章节、具体问题和必要依据，不要提交密码、个人敏感信息或未经授权的公司与客户资料。涉及新的案例或内容改写，可以通过 Pull Request 提议。
 
-仓库公开可读；目前尚未另行授予内容使用许可。如需转载、改编或商业使用，请先与作者联系。
+原创书稿、讲义、学习数据与导读采用 [CC BY 4.0](LICENSE)：允许转载、改编与商业使用，须合理署名、保留来源和许可链接，并注明修改。示例代码和维护脚本采用 MIT。第三方论文与外部材料保留各自权利，详见 [许可范围与署名方式](LICENSES.md)。
 
 ## 基础课配套讲义
 
@@ -79,3 +83,13 @@
 ## 新增：AI 应用与开发系列
 
 另有五本八章短书初稿：[AI 工作手册](books/ai-workbook/README.md)、[让团队用好 AI](books/ai-team/README.md)、[做出第一个 AI 应用](books/ai-app-dev/README.md)、[把 AI 接进工作流](books/ai-workflows/README.md)、[用好 Codex：从一句需求到可靠交付](books/codex-practice/README.md)。包含案例、模板、练习与开发示例；[查看系列书架](books/README.md)。
+
+## 开放学习数据（2026-09-26）
+
+除了可直接阅读的 Markdown，本仓库还提供六本书目录、四个基础单元与八个进阶起始主题、两组共八道教学判断题，以及六篇经典论文的 JSON 数据；论文索引同时提供 CSV。读者可用于制作自己的阅读器、课程索引和学习工具。
+
+- [数据文件与字段说明](data/README.md)
+- [六篇论文中文导读与英文原文入口](papers/README.md)
+- [离线模拟开发示例](books/ai-app-dev/examples/README.md)
+
+不包含读者输入、账号数据、服务器配置、密钥或未经授权的论文全文。各项材料继续以公开初稿呈现；贡献方式见 [CONTRIBUTING.md](CONTRIBUTING.md)。
