@@ -7,6 +7,7 @@
 | 原创书稿、讲义、阅读卡、中文导读、任务模板，以及数据文件中的原创编排与说明 | [CC BY 4.0](LICENSE) |
 | `books/ai-app-dev/examples/` 中的代码及其配套说明 | [MIT](books/ai-app-dev/examples/LICENSE) |
 | `scripts/` 中的维护脚本 | [MIT](scripts/LICENSE) |
+| `slides/` 历史课件与 `data/presentations.json` | 原创文字 CC BY 4.0；混合材料范围见 [课件说明](slides/README.md) |
 
 CC BY 4.0 允许复制、分享、改编和商业使用；传播时须合理署名、保留来源与许可链接，并说明修改。遵守许可的既有使用不能被撤销。不得暗示作者为你的产品、培训或观点背书。MIT 代码须保留版权与许可声明。完整条款以对应许可证为准。
 

@@ -1,0 +1,85 @@
+{
+  "schemaVersion": "1.0",
+  "updated": "2026-09-26",
+  "creator": "陈一豪 / Ethan",
+  "license": "See slides/README.md for mixed-material scope",
+  "presentations": [
+    {
+      "id": "ai-intro",
+      "title": "AI 使用入门培训",
+      "subtitle": "AI 时代：从会使用到会管理",
+      "description": "围绕 AI 改变了什么、大模型与智能体如何协作，以及人如何交代任务、检查结果，建立一张入门认知地图。",
+      "versionLabel": "2026 年 8 月 · v0.3 历史课件",
+      "outline": [
+        "AI 与技术变化：放大部分认知劳动",
+        "大模型、智能体与数字团队",
+        "目标、背景、资料、输出、验收和边界",
+        "业务化、管理与学习三项能力",
+        "从一个真实小任务开始实践"
+      ],
+      "relatedBook": "/book/collaborate",
+      "originalName": "AI使用入门培训_培训PPT_v0.3.pptx",
+      "pages": 17,
+      "github": "https://github.com/pzhcyh/put-ai-to-work/tree/main/slides/ai-intro",
+      "pptx": "/slides/ai-intro/slides.pptx",
+      "pptxSize": "191 KB",
+      "pdf": "/slides/ai-intro/slides.pdf",
+      "pdfSize": "1.2 MB",
+      "cover": "/slides/ai-intro/cover.png",
+      "sourceNote": "历史课件公开整理版；保留原页序、视觉对象与教学备注，清理文件作者属性及本机路径。原文件保留。",
+      "files": {
+        "slides.pptx": {
+          "path": "slides/ai-intro/slides.pptx",
+          "sha256": "8bc71cf356155c4fa63a9affeba7ccd9841745f29471a1a51c4582124f4c07f6"
+        },
+        "slides.pdf": {
+          "path": "slides/ai-intro/slides.pdf",
+          "sha256": "b98cfa265068e8beaa911477a796b73c421b6507a1bea2d9c8f778fa99fb3ddc"
+        },
+        "cover.png": {
+          "path": "slides/ai-intro/cover.png",
+          "sha256": "eae621db72151241ef07ab9507e6903f689f262f1514a8ea20f5dc1efc2f8cf0"
+        }
+      }
+    },
+    {
+      "id": "night-school",
+      "title": "东方市夜校 · AI 第一课",
+      "subtitle": "认识 AI，把事情交代清楚",
+      "description": "面向初次接触 AI 的读者，用熟悉的办公任务理解模型、智能体、任务说明与结果判断，配合演示和课后练习。",
+      "versionLabel": "封面日期 2026.09.17 · 17 页版本",
+      "outline": [
+        "从熟悉的一件事理解 AI",
+        "大模型、智能体与 OPC 的教学类比",
+        "业务判断、任务管理与实践学习",
+        "背景、目标、资料、要求四项任务单",
+        "方案演示、交流答疑与课后尝试"
+      ],
+      "relatedBook": "/learn#basics",
+      "originalName": "东方市夜校_AI第一课_深色科技_17页_白色页脚Logo.pptx",
+      "pages": 17,
+      "github": "https://github.com/pzhcyh/put-ai-to-work/tree/main/slides/night-school",
+      "pptx": "/slides/night-school/slides.pptx",
+      "pptxSize": "2.7 MB",
+      "pdf": "/slides/night-school/slides.pdf",
+      "pdfSize": "1.2 MB",
+      "cover": "/slides/night-school/cover.png",
+      "sourceNote": "历史课件公开整理版；保留原页序、视觉对象与教学备注，清理文件作者属性及本机路径。原文件保留。",
+      "files": {
+        "slides.pptx": {
+          "path": "slides/night-school/slides.pptx",
+          "sha256": "9c9d5e882d51fed5f1f8f0b48a26a91bf0bf3928dff632b3d946a03506042266"
+        },
+        "slides.pdf": {
+          "path": "slides/night-school/slides.pdf",
+          "sha256": "c6e0b1bb17bfb55a5805ae51743a5d2b072e0df221509295851e3bbb6469bafc"
+        },
+        "cover.png": {
+          "path": "slides/night-school/cover.png",
+          "sha256": "ed52bb7ce75916d42b1c682de74bc572ec43631c1c2e0532bd9d7eb3681272c0"
+        }
+      }
+    }
+  ],
+  "status": "historical-slide-archive"
+}

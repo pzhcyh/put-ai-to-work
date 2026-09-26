@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import { readFileSync, existsSync } from 'node:fs';
 import { dirname, resolve, sep } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { createHash } from 'node:crypto';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const load = file => JSON.parse(readFileSync(resolve(root, 'data', file), 'utf8'));
@@ -58,4 +59,21 @@ const quote = value => '"' + String(value ?? '').replaceAll('"','""') + '"';
 const expected = fields.map(quote).join(',') + '\n' + papers.papers.map(p => fields.map(f => quote(p[f])).join(',')).join('\n') + '\n';
 assert.equal(readFileSync(resolve(root,'data/papers.csv'),'utf8'), expected, 'CSV differs from JSON');
 for (const file of ['LICENSE','LICENSES.md','scripts/LICENSE','books/ai-app-dev/examples/LICENSE']) fileExists(file);
-console.log(`Validated ${books.books.length} books, ${chapterFiles.size} chapters, ${learning.tracks.reduce((sum,t)=>sum+t.rows.length,0)} learning units, ${exercises.lessons.reduce((sum,l)=>sum+l.claims.length,0)} exercises and ${papers.papers.length} papers.`);
+const presentations = load('presentations.json');
+assert.equal(presentations.schemaVersion, '1.0');
+unique(presentations.presentations);
+for (const deck of presentations.presentations) {
+  assert(Number.isInteger(deck.pages) && deck.pages > 0);
+  assert(deck.title && deck.versionLabel && deck.outline.length > 0);
+  fileExists(`slides/${deck.id}/README.md`);
+  for (const [field, name, magic] of [['pptx','slides.pptx','PK'], ['pdf','slides.pdf','%PDF-'], ['cover','cover.png','\x89PNG']]) {
+    const file = deck.files[name];
+    assert.equal(file.path, `slides/${deck.id}/${name}`);
+    assert.equal(deck[field], '/' + file.path);
+    fileExists(file.path);
+    const bytes = readFileSync(resolve(root, file.path));
+    assert.equal(bytes.subarray(0, magic.length).toString('latin1'), magic, `Invalid file format: ${file.path}`);
+    assert.equal(createHash('sha256').update(bytes).digest('hex'), file.sha256, `File hash differs: ${file.path}`);
+  }
+}
+console.log(`Validated ${books.books.length} books, ${chapterFiles.size} chapters, ${learning.tracks.reduce((sum,t)=>sum+t.rows.length,0)} learning units, ${exercises.lessons.reduce((sum,l)=>sum+l.claims.length,0)} exercises, ${papers.papers.length} papers and ${presentations.presentations.length} slide decks.`);

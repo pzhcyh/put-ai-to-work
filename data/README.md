@@ -12,6 +12,8 @@
 | [papers.json](papers.json) | 6 篇经典论文 | `papers`：英文题名、中文导读题、作者、年份、原文链接、解释、边界与练习 |
 | [papers.csv](papers.csv) | 同一组论文的表格版本 | 第一行为字段名，UTF-8，标准 CSV 引号转义 |
 
+[presentations.json](presentations.json) 另外提供两份历史课件的版本、页数、文件路径和SHA256。PPT与PDF含品牌标志等混合材料，许可范围见 [课件说明](../slides/README.md)，不使用其他数据文件的统一CC BY范围。
+
 ## 使用约定
 
 - JSON 顶层保留 `schemaVersion`、`updated`、`creator`、`license` 和 `status`。具体记录分别在 `books`、`tracks`、`lessons` 或 `papers`。

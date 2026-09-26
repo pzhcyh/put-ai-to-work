@@ -14,7 +14,7 @@
 
 个人网站已部署到京东云；截至 2026-09-26，公网访问仍受备案审核限制。此仓库可以直接阅读书稿。
 
-**开放内容入口：** [六本书 / 52章](books/README.md) · [课程与学习数据](data/README.md) · [经典论文阅读](papers/README.md) · [参与完善](CONTRIBUTING.md)
+**开放内容入口：** [六本书 / 52章](books/README.md) · [课程与学习数据](data/README.md) · [经典论文阅读](papers/README.md) · [分享课件](slides/README.md) · [参与完善](CONTRIBUTING.md)
 
 原创学习内容采用 CC BY 4.0，示例代码采用 MIT；可署名复用，完整范围见 [LICENSES.md](LICENSES.md)。
 
@@ -93,3 +93,7 @@
 - [离线模拟开发示例](books/ai-app-dev/examples/README.md)
 
 不包含读者输入、账号数据、服务器配置、密钥或未经授权的论文全文。各项材料继续以公开初稿呈现；贡献方式见 [CONTRIBUTING.md](CONTRIBUTING.md)。
+
+## 既有分享课件
+
+新增[分享课件目录](slides/README.md)：《AI 使用入门培训》和《东方市夜校 · AI 第一课》，共34页，均提供PPTX与PDF。保留历史内容与原版式；第三方素材许可单独说明。
