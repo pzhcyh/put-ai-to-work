@@ -1,0 +1,17 @@
+{
+ "slug":"codex-practice",
+ "title":"用好 Codex",
+ "subtitle":"从一句需求到可靠交付",
+ "audience":"希望用 Codex 完成资料整理、小工具开发与项目修改的非专业开发者和初学者",
+ "description":"围绕一个虚构的资料索引小工具，练习准备工作区、说明目标、管理上下文、制作原型、调试、验收、分工和复用。把会提问，推进到会完成一件事。",
+ "chapters":[
+  {"slug":"workspace","title":"先准备一个清楚的工作区","file":"01-workspace.md"},
+  {"slug":"task","title":"把一句需求变成可交付任务","file":"02-task.md"},
+  {"slug":"context","title":"给对上下文，留下必要约定","file":"03-context.md"},
+  {"slug":"prototype","title":"做出第一个可以试用的小工具","file":"04-prototype.md"},
+  {"slug":"debug","title":"让修改和调试有明确的依据","file":"05-debug.md"},
+  {"slug":"verify","title":"检查结果，而不只相信完成报告","file":"06-verify.md"},
+  {"slug":"parallel","title":"把并行工作放进清楚的边界","file":"07-parallel.md"},
+  {"slug":"reuse","title":"从一次任务到可复用的工作方法","file":"08-reuse.md"}
+ ]
+}

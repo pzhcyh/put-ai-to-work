@@ -78,4 +78,4 @@
 
 ## 新增：AI 应用与开发系列
 
-另有四本八章短书初稿：[AI 工作手册](books/ai-workbook/README.md)、[让团队用好 AI](books/ai-team/README.md)、[做出第一个 AI 应用](books/ai-app-dev/README.md)、[把 AI 接进工作流](books/ai-workflows/README.md)。包含案例、模板、练习与开发示例；[查看系列书架](books/README.md)。
+另有五本八章短书初稿：[AI 工作手册](books/ai-workbook/README.md)、[让团队用好 AI](books/ai-team/README.md)、[做出第一个 AI 应用](books/ai-app-dev/README.md)、[把 AI 接进工作流](books/ai-workflows/README.md)、[用好 Codex：从一句需求到可靠交付](books/codex-practice/README.md)。包含案例、模板、练习与开发示例；[查看系列书架](books/README.md)。
