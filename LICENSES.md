@@ -4,7 +4,7 @@
 
 | 范围 | 许可 |
 | --- | --- |
-| 原创书稿、讲义、阅读卡、中文导读、任务模板，以及数据文件中的原创编排与说明 | [CC BY 4.0](LICENSE) |
+| 原创书稿、`articles/` 原创文章、讲义、阅读卡、中文导读、任务模板，以及数据文件中的原创编排与说明 | [CC BY 4.0](LICENSE) |
 | `books/ai-app-dev/examples/` 中的代码及其配套说明 | [MIT](books/ai-app-dev/examples/LICENSE) |
 | `scripts/` 中的维护脚本 | [MIT](scripts/LICENSE) |
 | `slides/` 历史课件与 `data/presentations.json` | 原创文字 CC BY 4.0；混合材料范围见 [课件说明](slides/README.md) |

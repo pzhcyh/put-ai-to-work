@@ -14,7 +14,7 @@
 
 个人网站已部署到京东云；截至 2026-09-26，公网访问仍受备案审核限制。此仓库可以直接阅读书稿。
 
-**开放内容入口：** [六本书 / 52章](books/README.md) · [12节自学实践营](courses/self-study/README.md) · [课程与学习数据](data/README.md) · [经典论文阅读](papers/README.md) · [分享课件](slides/README.md) · [参与完善](CONTRIBUTING.md)
+**开放内容入口：** [六本书 / 52章](books/README.md) · [AI 时代如何自学](articles/ai-self-study.md) · [12节自学实践营](courses/self-study/README.md) · [课程与学习数据](data/README.md) · [经典论文阅读](papers/README.md) · [分享课件](slides/README.md) · [参与完善](CONTRIBUTING.md)
 
 原创学习内容采用 CC BY 4.0，示例代码采用 MIT；可署名复用，完整范围见 [LICENSES.md](LICENSES.md)。
 
@@ -99,6 +99,8 @@
 新增[分享课件目录](slides/README.md)：《AI 使用入门培训》和《东方市夜校 · AI 第一课》，共34页，均提供PPTX与PDF。保留历史内容与原版式；第三方素材许可单独说明。
 
 ## AI 自学实践营
+
+[开始前读一篇：《AI 时代如何自学》](articles/ai-self-study.md)。参考李笑来《自学是门手艺》与 Dwarkesh Patel 的学习经验，提供原创六步实践、七天起步安排、可核对的数据练习和学习卡。文章区分个人经验、研究结果与教学建议，保留原始来源。
 
 [完整课程与讲义](courses/self-study/README.md) 提供三条路线、12节自学实践课：
 
