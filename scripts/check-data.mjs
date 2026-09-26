@@ -76,4 +76,20 @@ for (const deck of presentations.presentations) {
     assert.equal(createHash('sha256').update(bytes).digest('hex'), file.sha256, `File hash differs: ${file.path}`);
   }
 }
-console.log(`Validated ${books.books.length} books, ${chapterFiles.size} chapters, ${learning.tracks.reduce((sum,t)=>sum+t.rows.length,0)} learning units, ${exercises.lessons.reduce((sum,l)=>sum+l.claims.length,0)} exercises, ${papers.papers.length} papers and ${presentations.presentations.length} slide decks.`);
+const selfStudy = load('self-study.json');
+assert.equal(selfStudy.schemaVersion, '1.0');
+assert.equal(selfStudy.license, 'CC-BY-4.0');
+unique(selfStudy.tracks); unique(selfStudy.lessons);
+assert.equal(selfStudy.lessons.length, 12);
+for (const lesson of selfStudy.lessons) {
+  assert(selfStudy.tracks.some(t=>t.id===lesson.trackId));
+  fileExists(lesson.handout);
+  const handout = readFileSync(resolve(root, lesson.handout),'utf8');
+  assert(handout.includes(lesson.prompt) && handout.includes(lesson.reference), `Handout differs from dataset: ${lesson.id}`);
+  unique(lesson.challenge.options);
+  assert(lesson.challenge.options.some(o=>o.id===lesson.challenge.answer));
+  assert(lesson.challenge.explanation && lesson.checklist.length >= 3 && lesson.steps.length >= 3);
+}
+fileExists('courses/self-study/README.md');
+assert.deepEqual(JSON.parse(readFileSync(resolve(root,'courses/self-study/course.json'),'utf8')),selfStudy,'Course download differs from dataset');
+console.log(`Validated ${books.books.length} books, ${chapterFiles.size} chapters, ${learning.tracks.reduce((sum,t)=>sum+t.rows.length,0)} learning units, ${exercises.lessons.reduce((sum,l)=>sum+l.claims.length,0)} exercises, ${papers.papers.length} papers, ${presentations.presentations.length} slide decks and ${selfStudy.lessons.length} self-study lessons.`);

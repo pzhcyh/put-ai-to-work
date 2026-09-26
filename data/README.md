@@ -7,6 +7,7 @@
 | 文件 | 当前内容 | 主要字段 |
 | --- | --- | --- |
 | [books.json](books.json) | 6 本书、52 章 | `books`：书名、简介、目录、全文与单章文件路径 |
+| [self-study.json](self-study.json) | 3条路线、12节完整自学实践课 | `tracks` 与 `lessons`：材料、步骤、任务说明、判断题与解释、参考、自评、讲义路径 |
 | [learning.json](learning.json) | 4 个基础单元、8 个进阶起始主题 | `tracks[].rows`：目标、练习、检查标准、讲义与关联章节 |
 | [exercises.json](exercises.json) | 2 组教学材料、8 道判断题 | `lessons`：材料、题目、预编写答案与解释 |
 | [papers.json](papers.json) | 6 篇经典论文 | `papers`：英文题名、中文导读题、作者、年份、原文链接、解释、边界与练习 |
@@ -30,3 +31,9 @@
 运行 `node scripts/check-data.mjs` 可检查记录唯一性、目录文件存在、章节关联、答案值和论文 CSV 一致性。此检查不验证论文事实、外部链接当前可用性或课程实际效果。
 
 原创内容按 [CC BY 4.0](../LICENSE) 开放；第三方权利与署名方式见 [许可范围](../LICENSES.md)。若增加新的第三方素材，请单独注明来源与许可，不要默认套用本仓库许可。
+
+## 系列自学课程
+
+`self-study.json` 公开完整课程内容；相同内容下载保存在 `courses/self-study/course.json`，修改时同步。`lessons[].handout` 为仓库相对路径；`resources[].to` 是个人网站路由。判断题由编写者设置，网站反馈按明确选项计算，不调用模型；`checklist` 是读者自评依据，不代表系统核验成果。
+
+各课围绕一件具体作品展开。示例数据均为虚构，不应当作真实活动、报名记录或用户成绩。公开首版预计时长仅供学习安排。进度、答案选择和实践笔记不在本数据集中。
