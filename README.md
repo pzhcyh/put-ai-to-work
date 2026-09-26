@@ -75,3 +75,7 @@
 ## 本次修订（2026-09-26）
 
 补充阅读指南与三条阅读路线；扩写第三章的资料交接、第四章的判断卡与数字边界；加入四份基础课配套讲义。正文继续以公开初稿呈现。
+
+## 新增：AI 应用与开发系列
+
+另有四本八章短书初稿：[AI 工作手册](books/ai-workbook/README.md)、[让团队用好 AI](books/ai-team/README.md)、[做出第一个 AI 应用](books/ai-app-dev/README.md)、[把 AI 接进工作流](books/ai-workflows/README.md)。包含案例、模板、练习与开发示例；[查看系列书架](books/README.md)。

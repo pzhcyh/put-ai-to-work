@@ -1,0 +1,17 @@
+{
+  "slug": "ai-team",
+  "title": "让团队用好 AI",
+  "subtitle": "从试点到日常协作",
+  "audience": "希望把 AI 融入日常工作的中小团队负责人、项目经理与业务骨干",
+  "description": "以一个虚构的社区内容团队为线索，把任务选择、分工、资料权限、质量评审、试点度量、故障处理与持续改进串成可执行的协作方法。陈一豪策划，AI 辅助撰写的公开初稿。",
+  "chapters": [
+    { "slug": "choose-a-task", "title": "先选一件值得共同做好的事", "file": "01-choose-a-task.md" },
+    { "slug": "assign-responsibility", "title": "分工的终点是有人负责", "file": "02-assign-responsibility.md" },
+    { "slug": "organize-materials", "title": "让资料可用，让权限清楚", "file": "03-organize-materials.md" },
+    { "slug": "review-quality", "title": "把评审变成可以执行的动作", "file": "04-review-quality.md" },
+    { "slug": "measure-a-pilot", "title": "用一轮试点看清收益和代价", "file": "05-measure-a-pilot.md" },
+    { "slug": "handle-failure", "title": "当流程失败，先恢复工作", "file": "06-handle-failure.md" },
+    { "slug": "keep-human-judgment", "title": "决定哪些事情必须由人判断", "file": "07-keep-human-judgment.md" },
+    { "slug": "grow-the-practice", "title": "把有用的做法变成团队习惯", "file": "08-grow-the-practice.md" }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug": "ai-app-dev",
+  "title": "做出第一个 AI 应用",
+  "subtitle": "从需求到可用产品",
+  "audience": "有基础编程能力，希望独立完成一个 AI 应用的开发者与产品实践者",
+  "description": "围绕一个虚构的图书角资料问答应用，走过需求、最小架构、模型适配、数据约定、检索、评估、成本与上线维护。附可运行的 Python 标准库模拟示例。陈一豪策划，AI 辅助撰写，公开初稿。",
+  "chapters": [
+    {"slug":"scope","title":"先定义一个值得完成的小问题","file":"01-scope.md"},
+    {"slug":"architecture","title":"让最小架构形成完整闭环","file":"02-architecture.md"},
+    {"slug":"adapter","title":"把模型接在可以替换的位置","file":"03-adapter.md"},
+    {"slug":"contracts","title":"用输入输出约定守住边界","file":"04-contracts.md"},
+    {"slug":"retrieval","title":"让回答带着可核对的来源","file":"05-retrieval.md"},
+    {"slug":"evaluation","title":"知道应用什么时候做对了","file":"06-evaluation.md"},
+    {"slug":"budget","title":"管理等待时间与使用费用","file":"07-budget.md"},
+    {"slug":"operations","title":"发布之后，继续对结果负责","file":"08-operations.md"}
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "slug":"ai-workbook",
+  "title":"AI 工作手册",
+  "subtitle":"写作、资料、表格与内容生产的八次实战",
+  "audience":"已经会与 AI 对话，希望完成具体办公任务的读者",
+  "description":"跟随一间虚构的社区书屋完成一周工作：写通知、整理资料、做表格、安排活动、制作讲解、改写内容，并留下可复用的工作包。",
+  "chapters":[
+    {"slug":"brief","title":"先写一张任务单","file":"01-brief.md"},
+    {"slug":"writing","title":"把材料写成能直接使用的文字","file":"02-writing.md"},
+    {"slug":"reading","title":"从一堆资料里找出可靠答案","file":"03-reading.md"},
+    {"slug":"tables","title":"让表格帮助判断，而不只是变好看","file":"04-tables.md"},
+    {"slug":"planning","title":"把活动想法变成能执行的安排","file":"05-planning.md"},
+    {"slug":"presentation","title":"做一份让人听懂的讲解","file":"06-presentation.md"},
+    {"slug":"content","title":"把一份内容改成多种表达","file":"07-content.md"},
+    {"slug":"portfolio","title":"留下自己的可复用工作包","file":"08-portfolio.md"}
+  ]
+}

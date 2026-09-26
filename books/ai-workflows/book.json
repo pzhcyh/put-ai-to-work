@@ -1,0 +1,17 @@
+{
+  "slug": "ai-workflows",
+  "title": "把 AI 接进工作流：工具、知识与智能体",
+  "subtitle": "从一次回答，到能够执行、检查与恢复的协作流程",
+  "audience": "已经会使用 AI，并具备一点开发经验的实践者",
+  "description": "以虚构的活动资料助手为贯穿案例，学习工具契约、状态管理、重试与幂等、检索与记忆、授权边界、有限智能体、评测回放和人工接管。陈一豪策划，AI 辅助撰写的公开初稿。",
+  "chapters": [
+    { "slug": "start-with-workflow", "title": "先画出工作，再让 AI 参与", "file": "01-start-with-workflow.md" },
+    { "slug": "tool-contracts", "title": "把工具写成清楚的协作契约", "file": "02-tool-contracts.md" },
+    { "slug": "state-and-recovery", "title": "让每一步都有状态，也有退路", "file": "03-state-and-recovery.md" },
+    { "slug": "knowledge-and-memory", "title": "让资料可查，让记忆可改", "file": "04-knowledge-and-memory.md" },
+    { "slug": "permission-boundaries", "title": "资料可以参考，权限不能借给它", "file": "05-permission-boundaries.md" },
+    { "slug": "bounded-agent", "title": "给智能体自由，也给它边界", "file": "06-bounded-agent.md" },
+    { "slug": "evaluate-and-replay", "title": "用案例、轨迹和回放判断有没有做好", "file": "07-evaluate-and-replay.md" },
+    { "slug": "handover-and-maintenance", "title": "把接管、维护与退出写进设计", "file": "08-handover-and-maintenance.md" }
+  ]
+}
