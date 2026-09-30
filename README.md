@@ -10,11 +10,11 @@
 
 > 当前版本：2026-09-26 首轮公开初稿，共十二章。书稿由陈一豪策划，结合既有分享方向与 AI 辅助整理，仍在持续审阅和修订。文中教学示例不代表真实客户或活动成果。
 
-[先读：这本书怎么用](reading-guide.md) · [从第一章开始](chapters/01-start.md) · [全书 Markdown](把AI用起来-初稿.md) · [个人主页](https://pzhyh.com)
+[先读：这本书怎么用](reading-guide.md) · [从第一章开始](chapters/01-start.md) · [全书 Markdown](把AI用起来-初稿.md) · [个人主页](https://chenyihao.com)
 
-个人网站已部署到京东云；截至 2026-09-26，公网访问仍受备案审核限制。此仓库可以直接阅读书稿。
+个人网站现以 chenyihao.com 部署至阿里云。源站部署与域名公网可用分别核验，最新实测状态见网站维护记录；本仓库可直接阅读书稿与学习资料。
 
-**开放内容入口：** [六本书 / 52章](books/README.md) · [AI 时代如何自学](articles/ai-self-study.md) · [12节自学实践营](courses/self-study/README.md) · [课程与学习数据](data/README.md) · [经典论文阅读](papers/README.md) · [分享课件](slides/README.md) · [参与完善](CONTRIBUTING.md)
+**开放内容入口：** [六本书 / 52章](books/README.md) · [AI 时代如何自学](articles/ai-self-study.md) · [12节自学实践营](courses/self-study/README.md) · [课程与学习数据](data/README.md) · [经典论文阅读](papers/README.md) · [作者文章](reading/README.md) · [分享课件](slides/README.md) · [参与完善](CONTRIBUTING.md)
 
 原创学习内容采用 CC BY 4.0，示例代码采用 MIT；可署名复用，完整范围见 [LICENSES.md](LICENSES.md)。
 
@@ -86,10 +86,10 @@
 
 ## 开放学习数据（2026-09-26）
 
-除了可直接阅读的 Markdown，本仓库还提供六本书目录、四个基础单元与八个进阶起始主题、两组共八道教学判断题，以及六篇经典论文的 JSON 数据；论文索引同时提供 CSV。读者可用于制作自己的阅读器、课程索引和学习工具。
+除了可直接阅读的 Markdown，本仓库还提供六本书目录、四个基础单元与八个进阶起始主题、两组共八道教学判断题，以及14篇经典论文与10篇作者文章的 JSON 数据；论文索引同时提供 CSV。读者可用于制作自己的阅读器、课程索引和学习工具。
 
 - [数据文件与字段说明](data/README.md)
-- [六篇论文中文导读与英文原文入口](papers/README.md)
+- [14篇论文中文导读与英文原文入口](papers/README.md)
 - [离线模拟开发示例](books/ai-app-dev/examples/README.md)
 
 不包含读者输入、账号数据、服务器配置、密钥或未经授权的论文全文。各项材料继续以公开初稿呈现；贡献方式见 [CONTRIBUTING.md](CONTRIBUTING.md)。

@@ -58,6 +58,19 @@ const fields = ['id','name','year','topic','title','zh','author','url','question
 const quote = value => '"' + String(value ?? '').replaceAll('"','""') + '"';
 const expected = fields.map(quote).join(',') + '\n' + papers.papers.map(p => fields.map(f => quote(p[f])).join(',')).join('\n') + '\n';
 assert.equal(readFileSync(resolve(root,'data/papers.csv'),'utf8'), expected, 'CSV differs from JSON');
+const reading = load('reading.json');
+assert.equal(reading.schemaVersion, '1.0');
+assert.equal(reading.license, 'CC-BY-4.0');
+unique(reading.articles);
+for (const article of reading.articles) {
+  for (const field of ['url','home']) assert.equal(new URL(article[field]).protocol,'https:');
+  assert(['zh','en'].includes(article.language));
+  assert(/^\d{4}-\d{2}-\d{2}$/.test(article.date));
+  assert(article.author && article.title && article.zh && article.start && article.question && article.task);
+  assert(papers.papers.some(p=>p.id===article.paper));
+  assert(article.course.startsWith('/') && !article.course.startsWith('//'));
+}
+for (const path of reading.paths) for (const id of path.ids) assert(reading.articles.some(a=>a.id===id));
 for (const file of ['LICENSE','LICENSES.md','scripts/LICENSE','books/ai-app-dev/examples/LICENSE']) fileExists(file);
 const presentations = load('presentations.json');
 assert.equal(presentations.schemaVersion, '1.0');
