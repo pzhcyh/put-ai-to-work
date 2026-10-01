@@ -1,0 +1,195 @@
+{
+  "schemaVersion": "1.0",
+  "id": "ai-agent-book",
+  "title": "深入理解 AI Agent：设计原理与工程实践",
+  "author": "李博杰 / Bojie Li",
+  "version": "2.0",
+  "checked": "2026-10-01",
+  "sourceCommit": "dbc046eb896ac4e39aa19c7774c8bf49583b89a6",
+  "repository": "https://github.com/bojieli/ai-agent-book",
+  "reader": "https://bojieli.github.io/ai-agent-book/astro/",
+  "sourceUrl": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/README.md",
+  "license": "Apache-2.0",
+  "licenseUrl": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/LICENSE",
+  "licenseFile": "/licenses/ai-agent-book-APACHE-2.0.txt",
+  "experimentStatusUrl": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/docs/EXPERIMENT_STATUS.md",
+  "downloads": {
+    "zhPdf": "https://github.com/bojieli/ai-agent-book/releases/download/latest/AI-Agents-in-Depth-zh-CN.pdf",
+    "enPdf": "https://github.com/bojieli/ai-agent-book/releases/download/latest/AI-Agents-in-Depth-en.pdf"
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "AI Agent 入门",
+      "exerciseCount": 4,
+      "focus": "先理解模型、上下文、工具如何组成一次完成任务的循环。",
+      "task": "选一项日常任务，画出输入、模型判断、工具动作和完成条件。",
+      "zhUrl": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/book/chapter1.md",
+      "enUrl": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/book-en/chapter1.md",
+      "labUrl": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/chapter1/README.md"
+    },
+    {
+      "number": 2,
+      "title": "上下文工程",
+      "exerciseCount": 10,
+      "focus": "把上下文当作需要设计、更新与压缩的工作材料。",
+      "task": "给同一任务制作简略与完整两份背景材料，比较遗漏和成本。",
+      "zhUrl": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/book/chapter2.md",
+      "enUrl": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/book-en/chapter2.md",
+      "labUrl": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/chapter2/README.md"
+    },
+    {
+      "number": 3,
+      "title": "用户记忆和知识库",
+      "exerciseCount": 12,
+      "focus": "分清临时上下文、长期记忆与可查证的外部知识。",
+      "task": "用五份公开资料设计知识库，写出每份资料的来源和更新时间。",
+      "zhUrl": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/book/chapter3.md",
+      "enUrl": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/book-en/chapter3.md",
+      "labUrl": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/chapter3/README.md"
+    },
+    {
+      "number": 4,
+      "title": "工具",
+      "exerciseCount": 5,
+      "focus": "理解工具接口如何把文字意图变成可检查的动作。",
+      "task": "为一个查询工具写出输入、输出、失败处理和权限边界。",
+      "zhUrl": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/book/chapter4.md",
+      "enUrl": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/book-en/chapter4.md",
+      "labUrl": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/chapter4/README.md"
+    },
+    {
+      "number": 5,
+      "title": "Coding Agent 与通用 Agent",
+      "exerciseCount": 16,
+      "focus": "从明确需求开始，观察编程助手如何修改、测试与交付。",
+      "task": "让编程助手完成一个小功能，保留需求、变更记录与验收证据。",
+      "zhUrl": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/book/chapter5.md",
+      "enUrl": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/book-en/chapter5.md",
+      "labUrl": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/chapter5/README.md"
+    },
+    {
+      "number": 6,
+      "title": "交互：观察与动作空间的扩展",
+      "exerciseCount": 14,
+      "focus": "思考语音、屏幕和异步事件如何改变任务执行方式。",
+      "task": "画一个语音交互流程，标出用户打断、工具等待与恢复的位置。",
+      "zhUrl": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/book/chapter6.md",
+      "enUrl": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/book-en/chapter6.md",
+      "labUrl": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/chapter6/README.md"
+    },
+    {
+      "number": 7,
+      "title": "Agent 的评估",
+      "exerciseCount": 14,
+      "focus": "把“看起来不错”转成固定任务、指标与失败记录。",
+      "task": "建立十条小测试，记录成功条件、结果、耗时与失败原因。",
+      "zhUrl": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/book/chapter7.md",
+      "enUrl": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/book-en/chapter7.md",
+      "labUrl": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/chapter7/README.md"
+    },
+    {
+      "number": 8,
+      "title": "模型后训练",
+      "exerciseCount": 19,
+      "focus": "理解何时改进应用已足够，何时才值得进入模型训练。",
+      "task": "比较提示、检索、微调三种改进方案，写明数据和资源需求。",
+      "zhUrl": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/book/chapter8.md",
+      "enUrl": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/book-en/chapter8.md",
+      "labUrl": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/chapter8/README.md"
+    },
+    {
+      "number": 9,
+      "title": "Agent 的持续进化",
+      "exerciseCount": 9,
+      "focus": "用运行记录发现反复出现的问题，再验证一次改进。",
+      "task": "选三条失败记录，提出一项改动，用原来的测试重新比较。",
+      "zhUrl": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/book/chapter9.md",
+      "enUrl": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/book-en/chapter9.md",
+      "labUrl": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/chapter9/README.md"
+    },
+    {
+      "number": 10,
+      "title": "多 Agent 协作",
+      "exerciseCount": 6,
+      "focus": "检查任务分工、交接信息和共享状态是否真的有帮助。",
+      "task": "把一个任务分给两个角色，设计交接格式并与单角色方案比较。",
+      "zhUrl": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/book/chapter10.md",
+      "enUrl": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/book-en/chapter10.md",
+      "labUrl": "https://github.com/bojieli/ai-agent-book/blob/dbc046eb896ac4e39aa19c7774c8bf49583b89a6/chapter10/README.md"
+    }
+  ],
+  "paths": [
+    {
+      "id": "understand",
+      "title": "先理解，再动手",
+      "audience": "用过 AI，想理解 Agent 如何工作",
+      "chapters": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "deliverable": "一张任务流程图、一份上下文材料和一个工具接口说明。"
+    },
+    {
+      "id": "build",
+      "title": "做出第一个 Agent",
+      "audience": "有编程基础，准备做一个小应用",
+      "chapters": [
+        1,
+        2,
+        4,
+        5,
+        7
+      ],
+      "deliverable": "一个能运行的小功能，加上十条可重复执行的验收任务。"
+    },
+    {
+      "id": "improve",
+      "title": "走向可靠的协作",
+      "audience": "已有原型，希望改进交互与协作",
+      "chapters": [
+        3,
+        6,
+        7,
+        9,
+        10,
+        8
+      ],
+      "deliverable": "一份失败分析、一次对照评估，以及下一轮改进决策。后训练可作为选读。"
+    }
+  ],
+  "related": [
+    {
+      "title": "从任务说明开始实践",
+      "url": "/practice/task-brief"
+    },
+    {
+      "title": "AI 应用开发手册",
+      "url": "/books/ai-app-dev"
+    },
+    {
+      "title": "AI 工作流与智能体",
+      "url": "/books/ai-workflows"
+    },
+    {
+      "title": "经典论文阅读",
+      "url": "/papers"
+    }
+  ],
+  "scope": "第三方开源书的章节题录、实验入口和本站原创学习路线；未镜像正文或配套实验源码。",
+  "attribution": "Copyright 2025 Bojie Li. 上游章节题录及实验数量依据固定版本 README 整理；已改编为本站索引。",
+  "editorial": {
+    "creator": "陈一豪 / Ethan 网站",
+    "status": "AI 辅助整理的导读与练习草案，供读者自行实践",
+    "license": "CC-BY-4.0",
+    "fields": [
+      "chapters.focus",
+      "chapters.task",
+      "paths"
+    ]
+  },
+  "thirdPartyRights": "上游采用 Apache-2.0，部分子项目适用各自许可；本站导读许可不替代原书、翻译或外部项目许可。英文为社区翻译，可能滞后于中文。",
+  "verification": "已核对上游 README、LICENSE 和固定提交的文件路径。109 为上游实验数量，包含本地项目、外部复现与设计内容，本站未逐项运行或认证。官方阅读器与 PDF 入口指向最新版本，可能不同于本索引快照。"
+}

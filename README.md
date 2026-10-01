@@ -18,6 +18,8 @@
 
 原创学习内容采用 CC BY 4.0，示例代码采用 MIT；可署名复用，完整范围见 [LICENSES.md](LICENSES.md)。
 
+**开源共读：** [李博杰《深入理解 AI Agent》](reading/ai-agent-book/README.md)，独立整理10章中英文原文与实验入口、三条本站学习路线。[下载索引数据](data/ai-agent-book.json)。原书与本站原创书稿分别署名，保留上游 Apache-2.0 许可。
+
 ## 目录
 
 ### 开始行动
